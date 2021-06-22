@@ -1,26 +1,60 @@
-small application to track ethereum wallets
+# Ethereum Wallet and Blockchain Explorer
 
-DONE 1. get an overview of a wallet
-DONE 2. show transactions of wallet, in, out etc
+A terminal application in Python which pulls data from the Ethereum Blockchain and etherscan.io API. Tracking any single wallet’s data history and the live/historical information of the entire blockchain presented in MatPlotLib.
 
-3. general ethereum blockchain data
+## Description
 
-4. create a chain of addresses that interact with eachother
-5. option to write up to X transactions from a given address to an csv or something similar and presented in graph using matplotlib
+As you might have guessed by looking at my other projects I am quite interested in the Crypto sphere. Not so much the currencies, more so the technology. So I set about making a nice little project to navigate the land of Ethereum. My inital plan was to download the entire Ethereum blockchain, throw it into a database and navigate it from there. Sadly, the Ethereum blockchain is almost 250gb in size and I don't really have that storage freely sitting about.
 
+![image 1](https://gyazo.com/2722ab3da6a9d7f6d278f45747d2c1c4)
 
-general architecture
+So I found some APIs which allowed me to abstract me downloading the entire chain away.
 
-ask user if they want to explore eth blockchain 
-or
-explore an individual wallet
+![image 2](https://gyazo.com/c58121e40f2298973637fa62ecb066cc)
 
-if wallet
-make a new class of the address they type in 
-have functions listed in workbench operate on the address
-have trace function which can navigate backwards and forwards between addresses which interact with each other
-have an escape function to return to the choice between specific address and overall explore
+My application has way way way less functionality than the Etherscan.io and the like. But that doesn't matter, I learnt a fair bit about extracting and manipulating data from APIs etc.
 
-if overall
-class of overall
-DECIDE LATER
+![image 3](https://gyazo.com/248fdfcaca674409970401a262bcc180)
+
+In future updates I might make it so you can save output data to a file. Yet to be decided.
+
+![image 4](https://gyazo.com/95a2e622a135020dbf1e14f807434fff)
+
+## Getting Started
+
+There's not much to the 'getting started' install and run
+
+### Dependencies
+
+* Python
+
+### Installing
+
+* The folder is small and can be simply downloaded and run as is
+
+### Executing program
+
+* Navigate to the Tracker folder
+* key in:
+```
+python main.py
+```
+
+## Help
+
+The etherscan API has a pro/paid tier which is needed for the program to fully run.. I'm too stingy at the moment to pay
+
+## Authors
+
+Contributors:
+
+    * Me
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+I have no idea
