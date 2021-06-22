@@ -6,19 +6,21 @@ A terminal application in Python which pulls data from the Ethereum Blockchain a
 
 As you might have guessed by looking at my other projects I am quite interested in the Crypto sphere. Not so much the currencies, more so the technology. So I set about making a nice little project to navigate the land of Ethereum. My inital plan was to download the entire Ethereum blockchain, throw it into a database and navigate it from there. Sadly, the Ethereum blockchain is almost 250gb in size and I don't really have that storage freely sitting about.
 
-![image]![img1](https://user-images.githubusercontent.com/70699565/122992854-82f01e00-d39e-11eb-8196-e84ead919a50.png)
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/70699565/122992854-82f01e00-d39e-11eb-8196-e84ead919a50.png">
+</p>
 
 So I found some APIs which allowed me to abstract me downloading the entire chain away.
 
-![image]![img2](https://user-images.githubusercontent.com/70699565/122992881-8b485900-d39e-11eb-8129-8e8d7f0b8730.png)
+![img2](https://user-images.githubusercontent.com/70699565/122992881-8b485900-d39e-11eb-8129-8e8d7f0b8730.png)
 
 My application has way way way less functionality than the Etherscan.io and the like. But that doesn't matter, I learnt a fair bit about extracting and manipulating data from APIs etc.
 
-![image]![img3](https://user-images.githubusercontent.com/70699565/122992897-913e3a00-d39e-11eb-9478-d1cbc82bb4fb.png)
+![img3](https://user-images.githubusercontent.com/70699565/122992897-913e3a00-d39e-11eb-9478-d1cbc82bb4fb.png)
 
 In future updates I might make it so you can save output data to a file. Yet to be decided.
 
-![image]![img5](https://user-images.githubusercontent.com/70699565/122992915-9602ee00-d39e-11eb-93f1-7147aef0c562.png)
+![img5](https://user-images.githubusercontent.com/70699565/122992915-9602ee00-d39e-11eb-93f1-7147aef0c562.png)
 
 ## Getting Started
 
